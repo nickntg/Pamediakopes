@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:background="@drawable/banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+	<ScrollView 
+	    android:id="@+id/scroll1"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@id/logo" >
+	    <RelativeLayout 
+	        android:id="@+id/relative1"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/logo">
+	        
+	        <TextView
+	            android:id="@+id/attractionText"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="some text"
+	            style="@style/InformationText" />
+	        
+	        <Button 
+	            android:id="@+id/hotelsButton"
+	            android:text="@string/hotels_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/attractions"
+	            android:drawableRight="@drawable/disclosure"
+	            android:layout_below="@id/attractionText"
+	            android:onClick="ClickHotels"
+	            style="@style/NavigationButtonStyle" />
+	        <View 
+	            android:id="@+id/div1"
+	            android:layout_below="@id/hotelsButton"
+	            style="@style/DividingLine" />
+	        
+	        <Button 
+	            android:id="@+id/restaurantsButton"
+	            android:text="@string/restaurants_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/hotels"
+	            android:drawableRight="@drawable/disclosure"
+	            android:layout_below="@id/div1"
+	            android:onClick="ClickRestaurants"
+	            style="@style/NavigationButtonStyle" />
+	        <View 
+	            android:id="@+id/div2"
+	            android:layout_below="@id/restaurantsButton"
+	            style="@style/DividingLine" />
+	        
+	        <Button 
+	            android:id="@+id/entertainmentButton"
+	            android:text="@string/entertainment_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/entertainment"
+	            android:drawableRight="@drawable/disclosure"
+	            android:layout_below="@id/div2"
+	            android:onClick="ClickEntertainment"
+	            style="@style/NavigationButtonStyle" />
+	        <View 
+	            android:id="@+id/div3"
+	            android:layout_below="@id/entertainmentButton"
+	            style="@style/DividingLine" />
+	        
+	        <Button 
+	            android:id="@+id/transportButton"
+	            android:text="@string/transport_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/transportation"
+	            android:drawableRight="@drawable/disclosure"
+	            android:layout_below="@id/div3"
+	            android:onClick="ClickTransport"
+	            style="@style/NavigationButtonStyle" />
+	        <View 
+	            android:id="@+id/div4"
+	            android:layout_below="@id/transportButton"
+	            style="@style/DividingLine" />
+	        
+	        <Button 
+	            android:id="@+id/beachesButton"
+	            android:text="@string/beaches_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/beaches"
+	            android:drawableRight="@drawable/disclosure"
+	            android:layout_below="@id/div4"
+	            android:onClick="ClickBeaches"
+	            style="@style/NavigationButtonStyle" />
+	        <View 
+	            android:id="@+id/div5"
+	            android:layout_below="@id/beachesButton"
+	            style="@style/DividingLine" />
+	        
+	        <Button 
+	            android:id="@+id/telephonesButton"
+	            android:text="@string/telephones_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/telephones"
+	            android:drawableRight="@drawable/disclosure"
+	            android:layout_below="@id/div5"
+	            android:onClick="ClickTelephones"
+	            style="@style/NavigationButtonStyle" />
+	        <View 
+	            android:id="@+id/div6"
+	            android:layout_below="@id/telephonesButton"
+	            style="@style/DividingLine" />
+
+	    </RelativeLayout>
+	</ScrollView>
+
+</RelativeLayout>

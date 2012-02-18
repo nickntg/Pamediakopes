@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="NavigationButtonStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/buttonbackground</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">7.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableRight">@drawable/disclosure</item>
+        <item name="android:drawablePadding">15.0dip</item>
+    </style>
+    <style name="InformationTextHeader" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="InformationText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="DividingLine" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">#ffededed</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+</resources>

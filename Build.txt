@@ -1,0 +1,17 @@
+Build requirements
+===================
+
+* Visual Studio 2010.
+* Android SDK with SDK version 7 (Android 2.1).
+* Eclipse with ADT plugin
+
+Steps to build and run
+======================
+
+* Open the web service project and select properties/web. Use the local
+  IIS web server and deploy to http://localhost/PDWebFetchService. Create
+  the virtual directory and build the project.
+* Open Eclipse and import the AndroidApp project.
+* Navigate to the WebServiceHelper.java file and change the IP address
+  located there (192.168.1.99) with the address of your computer.
+* Build and deploy to an Android AVD or to a phone with Android 2.1 or higher.

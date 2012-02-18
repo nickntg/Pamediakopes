@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:background="@drawable/banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+	<ScrollView 
+	    android:id="@+id/scroll1"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@id/logo" >
+	    <RelativeLayout 
+	        android:id="@+id/relative1"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/logo">
+	        
+	        <Button 
+	            android:id="@+id/attractionsButton"
+	            android:text="@string/attractions_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/attractions"
+	            android:drawableRight="@drawable/disclosure"
+	            android:onClick="ClickAttractions"
+	            style="@style/NavigationButtonStyle" />
+	        <View 
+	            android:id="@+id/divider1"
+	            android:layout_below="@id/attractionsButton"
+	            style="@style/DividingLine" />
+	        
+	        <Button 
+	            android:id="@+id/aboutButton"
+	            android:text="@string/about_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/about"
+	            android:drawableRight="@drawable/disclosure"
+				android:layout_below="@id/divider1"
+				android:onClick="ClickAbout"
+	            style="@style/NavigationButtonStyle" />
+	        <View 
+	            android:id="@+id/divider2"
+	            android:layout_below="@id/aboutButton"
+	            style="@style/DividingLine" />
+
+	    </RelativeLayout>
+	</ScrollView>
+
+</RelativeLayout>

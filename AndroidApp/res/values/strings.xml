@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PDAttractions</string>
+    <string name="attractions_text">Προορισμοί Ελλάδος</string>
+    <string name="about_text">Περί</string>
+    <string name="hotels_text">Ξενοδοχεία</string>
+    <string name="restaurants_text">Εστιατόρια</string>
+    <string name="entertainment_text">Διασκέδαση</string>
+    <string name="transport_text">Μετακίνηση</string>
+    <string name="beaches_text">Παραλίες</string>
+    <string name="map_text">Χάρτης</string>
+    <string name="telephones_text">Χρήσιμα Τηλέφωνα</string>
+
+</resources>

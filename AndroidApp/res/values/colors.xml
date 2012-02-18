@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="buttonselectedyellow">#fffdce00</color>
+    <color name="disabledGrey">#ff7d7e7d</color>
+    <color name="titlebackgroundcolor">#ff7d7e7d</color>
+    <color name="titletextcolor">#ffffff00</color>
+    <color name="menubuttoncolor">#ff7d7e7d</color>
+</resources>
